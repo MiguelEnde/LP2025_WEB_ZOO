@@ -7,6 +7,14 @@ h1, h2, h3, h4, h5, h6, .btn {
 		font-family: 'Overpass', sans-serif;
 }
 
+.imagen_centro {
+    text-align: center;
+}
+
+.centro_actividad {
+    text-align: center;
+}
+
 .custom-container-style {
 		max-width: 90%;
 }
