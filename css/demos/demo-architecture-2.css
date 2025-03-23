@@ -7,6 +7,18 @@ h1, h2, h3, h4, h5, h6, .btn {
 		font-family: 'Overpass', sans-serif;
 }
 
+.imagen-arriba {
+    position: absolute; /* Asegura que la imagen se posicione en un lugar específico */
+    top: 0; /* Ajusta la posición desde la parte superior */
+    right: 0; /* Ajusta la posición desde la parte derecha */
+    z-index: 9999; /* Asegura que la imagen esté encima del resto de elementos */
+}
+
+.custom-page-wrapper {
+    position: relative; /* Necesario para que funcione z-index */
+    z-index: 1; /* Puedes asignarle un z-index más bajo que el de la imagen */
+}
+
 .imagen_centro {
     text-align: center;
 }
